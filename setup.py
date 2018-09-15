@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='pykarma',
+setup(name='pykarma-subreddit',
       version='1.2',
       description="A python API for Karma Decay",
-      url='http://github.com/samj1912/pykarma',
+      url='https://github.com/Aculisme/pykarma',
       author='Sambhav Kothari',
-      author_email='sambhavs.email@gmail.com',
+      author_email='luca.mehl@gmail.com',
       license='MIT',
-      packages=['pykarma'],
+      packages=['pykarma-subreddit'],
       install_requires=[
           'praw',
           'beautifulsoup4',
